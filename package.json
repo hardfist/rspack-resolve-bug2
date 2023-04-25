@@ -1,0 +1,23 @@
+{
+  "name": "sandbox-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rspack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rspack/cli": "0.1.9",
+    "@rspack/core": "0.1.9",
+    "@rspack/dev-server": "0.1.9",
+    "@types/react": "^18.0.28",
+    "react": "^17.0.0",
+    "react-dnd": "^16.0.1",
+    "webpack": "^5.76.2"
+  }
+}
